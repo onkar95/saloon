@@ -29,7 +29,6 @@ app.use(express.json())
 
 app.use('/auth', require('./routes/routes'))
 
-// const mongoDB = "mongodb+srv://onkar:onkar@cluster0.toikh.mongodb.net/blogapp?retryWrites=true&w=majority";
 mongoose.connect(process.env.mongoDB, {
     useNewUrlParser: true,
 }).then(res => { console.log('db cnnected') }).catch(err => { console.log(err) })
