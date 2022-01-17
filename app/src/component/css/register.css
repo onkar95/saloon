@@ -1,0 +1,10 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+}
+.register input{
+    line-height: 2pc;
+margin: 10px;
+}
